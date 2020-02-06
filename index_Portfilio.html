@@ -1,77 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>5by5 games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    float: right;
+  } 
+* {
+  box-sizing: border-box;
+}
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-    <title>Portfolio type 1.0</title>
-    <style>
-        * {
-          box-sizing: border-box  
-          img {
-          border-radius: 50%;
-        }
-          
-        }
-        
-        .column {
-          float: left;
-          width: 33.33%;
-          padding: 5px;
-        }
-        
-        /* Clearfix (clear floats) */
-        .row::after {
-          content: "";
-          clear: both;
-          display: table;
-        }
-        </style>
-  </head>
-  <body>
-    <h1>Portfolio v. 1.0</h1>
-    <h2>Images Side by Side</h2>
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <img src="https://drive.google.com/uc?id=130jYF871hxVttz4UHtGrXDXYy-_4taPh" alt="5X5 games" style="width:30%;height:30%;border:0; float: left">
+        <p class="lead">A group of students teamed up and called ourselves 5X5 games for a games semenar. In haaga-Hela including all the surrounding Colleges in the Helsinki area. </p>
+   <!--   <img src="https://drive.google.com/uc?id=1ZG8YdZvhdX9Z3-S96Mwi-V0yWf9lLL1g" alt="HTML tutorial" style="width:10%;height:10%;border:0; div=projectPristine"> -->
+ 
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#fistPic" data-slide-to="0" class="active"></li>
+    <li data-target="#secondPic" data-slide-to="1"></li>
+    <li data-target="#thirdPic" data-slide-to="2"></li>
+    <li data-target="#forthPic" data-slide-to="3"></li>
+  </ul>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://drive.google.com/uc?id=1AVd8WUaudaUsm1Am-VOSIq8xxaqHBMMU" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Cottage industry</h3>
+        <p>Farms</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://drive.google.com/uc?id=1tMaFtZ-kjHMJtHnoCUYzgruJt4NBHJEu" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Factories</h3>
+        <p>Moving from agricultural to industrial </p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+        <img src="https://drive.google.com/uc?id=1X_uMtwQgIOhofpN3QIewvndnq-ab3p86" alt="Sawmill" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>Sawmill</h3>
+            <p>Availing of the local resources.</p>
+      </div>   
+    </div> 
+    <div class="carousel-item">
+      <img src="https://drive.google.com/uc?id=1iZS1YULplHEwz3IHbzYkagQLShq-7zmI" alt="LowpolyPower" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>LowPolyPowerplant</h3>
+          <p>Advancing through the ages.</p>
+      </div>   
+    </div>    
+</div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+</div> <!-- jumbotron end-->
+<!-- start of images that will show -->
+<h2>Images Side by Side</h2>
 <p>How to create side-by-side images with the CSS float property:</p>
 
 <div class="row">
-  
   <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+    <img src="https://drive.google.com/uc?id=1KnCXmxBN0BntC_HVgAzs0ePd-AvQVw4R" alt="Apt" style="width:33%">
   </div>
   <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+    <img src="https://drive.google.com/uc?id=1_EeBXUZsvewbbi4CCnbvxJGEP4vDGIsp" alt="transport for industry" style="width:33%">
+  </div>
+  <div class="column">
+    <img src="https://drive.google.com/uc?id=1wYEa_2vfEpaQVZ0xu6kuJKndG9HR_oIj" alt="Trees" style="width:33%">
   </div>
 </div>
-<div class="row">
-  <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div><div class="row">
-  <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
-  </div>
- 
-  </div>
-</div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
