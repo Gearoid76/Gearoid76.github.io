@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html xmlns= "http://www.w3.org/1999/xhtml">
 <head>
-    <title>Gear&#243;ids working C.V.</title>														<!-- change title when finished -->
+    <title>Gear&#243;ids working C.V.</title>	<!-- change title when finished -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    </head>
+	</head>
+	<style>
+		.dropbtn {
+		  background-color: #4B77B0;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+		}
+		
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+		
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+		
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+		
+		
+		.dropdown-content a:hover {background-color: #ddd;}
+		
+		.dropdown:hover .dropdown-content {display: block;}
+		
+		.dropdown:hover .dropbtn {background-color: #85BDF5;}
+		
+		[data-toggle~="collapse"] {
+			cursor: pointer;
+		}
+		
+	</style>
+
     <body>
         <div class="container">
             <div class="row">
@@ -16,7 +59,7 @@
                          <li class="active"><a href="#Home" role="tab" data-toggle="tab">C.V.</a></li>
                             <li><a href="#Profile" role="tab" data-toggle="tab">Profile</a></li>
 							<li><a href="#Projects" role="tab" data-toggle="tab">Projects</a></li>
-					<!--	<li><a href="#Portfolio" role="tab" data-toggle="tab">Portfolio</a></li> -->
+							<li><a href="#Portfolio" role="tab" data-toggle="tab">Portfolio</a></li> 
                     </ul>
     <!-- Tab Content for C.V.-->
                         <div class="tab-content">
@@ -24,16 +67,17 @@
                             <div class="active tab-pane fade in" id="Home">
                                 <h2>Gear&#243;id O Ceallach&#225;in</h2>
 								
-								<!-- Accordion -->
+	<!-- Accordion -->
 									<div class="panel-group" id="myaccordian">
 										<div class="panel panel-primary">
 											<div class="panel-heading">
 												<h3 class="panel-title" data-target="#panel-1"data-toggle="collapse" data-parent="myaccordian">Gear&#243;id O Ceallach&#225;in</h3>
-											<div class="panel-collapse collapse" id="panel-1">
-												<div class="panel-body">
+													<div class="panel-collapse collapse" id="panel-1">
+														<div class="panel-body">
 													<img src="https://drive.google.com/uc?id=1Bj-qWOI7gxVks6n6Gn5IynTUoYnNs-Tu" alt="C.V. profile picture" style="float: right; width:120px; height:140;"> <!-- check out the formating -->
 													
-	<!-- General information change of address in Brussels -->				<p>Address: Ave Michael-Ange 9, Br-1000, Brussels </p>
+	<!-- General information change of address in Brussels -->	<p>Address: Gunnel Nymanin Katu5b 23, 00510, Helsinki </p>			
+															<!--<p>Address: Ave Michael-Ange 9, Br-1000, Brussels </p>-->
 													<p>Telephone: +358 40 035 6555</p>
 													<p>E-Mail: gocealla@gmail.com </p>
 
@@ -41,8 +85,8 @@
 													<p> Date of birth: February 9, 1976 </p>
 													<p>	Place of birth: Cork, Ireland</p>
 													 
-												</div>
-											</div>
+														</div>
+													</div>
 											</div>
 										</div>
 										<div class="panel panel-primary">
@@ -72,7 +116,7 @@
 											<div class="panel-heading">
 												<h3 class="panel-title" data-target="#panel-3"data-toggle="collapse" data-parent="myaccordian">Work experience</h3>
 											<div class="panel-collapse collapse" id="panel-3">
-											<!-- Work experience from the newest to the oldest  as far as the next comment line -->
+	<!-- Work experience from the newest to the oldest  as far as the next comment line -->
 												<div class="panel-body">
 												
 													<p>GAOTek     Auguest 2019, to  January 2020 </p> 
@@ -125,9 +169,9 @@
 											</div>
 											</div>
 										</div>
-									</div>
+									</div> <!--div ending for my accordian-->
 							</div>		
-				<!-- Tab Content Profile -->			
+				<!-- Tab Content Profile second Tab -->			
                             <div class="tab-pane fade" id="Profile">
                                 <h2>Profile</h2>
 								<p>My assets are co-working skills, understanding of user experiences and willingness to always learn more. My work experience from the Electronics and Hospitality industry have thought me good project management skills, communicate skills and ability to adapt.</p>
@@ -137,48 +181,9 @@
                             </div>
 				<!-- Tab Content-->			
                             <div class="tab-pane fade" id="Projects">
-							<style>
-.dropbtn {
-  background-color: #4B77B0;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+				
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #85BDF5;}
-
-[data-toggle~="collapse"] {
-    cursor: pointer;
-}
-
-</style>
                                 <h2>Projects</h2>
 								  <div class="dropdown">
 										<button class="dropbtn">Dropdown</button>
@@ -200,9 +205,10 @@
 								<p><b>Blender </b> This was my way to discover how to design by using Blender. </p>
 								<p><b>Unity </b> This was a natural step from blender seeing how the 3d world interacts with each other. </p>
                             </div>
-                            </div>
+                        </div> <!--div closing C.V -->
 							
-                <!-- Tab Content-->	
+				<!-- Tab Content-->	
+				<div class="tab-pane fade" id="Portfolio">
                         </div>
                  </div>
                 </div>
