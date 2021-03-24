@@ -1,0 +1,177 @@
+/*
+COLOUR PALETTE
+https://coolors.co/4c5454-ff715b-ffffff-1ea896-523f38
+#4C5454 Davys Grey
+#FF715B Bittersweet
+#E8DDB5 Dutch white
+#1EA896 Persian Green
+#523F38 Dark Liver Horses
+*/
+
+/*  Global styles 
+---------------------------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #4c5454; /* Davies Grey */
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+    
+img {
+    width: 300px;
+}
+a {
+    color: #4C5454;
+ }
+ a:hover {
+     text-decoration:none;
+ }
+ h1 {
+    font-size: 100px;   
+ }
+
+ h2 {
+     font-size: 45px;      
+ }
+ h1,h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 45px;
+    margin: 0;
+ }
+ h3 {
+     margin-bottom: 0;
+ }
+ .item-details h3 + p {
+     font-style: italic;
+ }
+
+ .item-details h3 ~ p {
+     margin: 0;
+ }
+ .content-wrap {
+     max-width: 900px;
+     width: 85%;
+     margin: 0 auto;
+     padding: 60px 0;
+ }
+
+ .divider > section {
+    border-bottom: 1px dashed #63372C;
+    padding: 25px 0px;
+ }
+ .divider >section:last-of-type {
+     border-bottom: none;
+ }
+
+/*  Profile
+---------------------------------------------------- */
+header {
+    background: #63372C;
+    color: #E8DDB5;
+    text-align: center;
+}
+
+
+/*  Projects 
+---------------------------------------------------- */
+.projects {
+    background: #E8DDB5;
+    }
+.projects a {
+    background: #63372C;
+    color:#1EA896;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn {
+    background: #63372C;
+    color: #1EA896;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.project-item {
+    overflow: hidden;
+  
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/*  Work experience
+---------------------------------------------------- */
+
+.Work-experience {
+    background: #FF715B;
+    margin: 0px;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+
+
+/*  Contact Info 
+---------------------------------------------------- */
+
+
+
+/*  Education 
+---------------------------------------------------- */
+.Education {
+    background-image: url(../images/lucas-george-wendt-OTOC4WEP6LY-unsplash.jpg);  
+    background-size: cover;
+    background-position: top-right;
+    color: #E8DDB5;
+    padding: 50px;
+}
+
+/*  Keep in touch 
+---------------------------------------------------- */
+footer {
+    background: #1EA896;
+    color: #4C5454;
+    text-align: center;
+}
+.reference-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.reference-list a {
+    padding: 20px;
+    display: inline-block;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+/*  Responsive
+---------------------------------------------------- */
+@media screen and (min-width: 750px) {
+
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+}
