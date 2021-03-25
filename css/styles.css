@@ -1,13 +1,12 @@
 /*
 COLOUR PALETTE
 https://coolors.co/4c5454-ff715b-ffffff-1ea896-523f38
-#4C5454 Davys Grey
+#4C5454 Davys Grey   #052955 Protanopia (unable to percieve RED light)
 #FF715B Bittersweet
 #E8DDB5 Dutch white
 #1EA896 Persian Green
 #523F38 Dark Liver Horses
-*/
-
+ https://venngage.com/blog/color-blind-friendly-palette */
 /*  Global styles 
 ---------------------------------------------------- */
 html {
@@ -18,7 +17,7 @@ html {
 }
 
 body {
-    color: #4c5454; /* Davies Grey */
+    color: #052955; /* was davies grey proved hard to read now Protanopia friendly color */
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
