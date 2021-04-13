@@ -7,21 +7,78 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #fbfcfc;
+      padding: 20px;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    
+    .row {
+      margin: 8px -16px;
+    }
+    
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
 </head>
 <body>
+    <div class="jumbotron">           
+        <div class="main">
+        <h1 class="display-4">Project Pia</h1>
+          <hr>
+            <h2>Overview</h2>
+              <p class="lead"> </p>
+              <p class="lead"> </p>
+              
+            <h2>Low resolution</h2>  
+              <p class="lead"></p>
+        </div>
+    </div>
 
 <div class="container">
-  <h2>Welcome to Peppi</h2>
+  <h2>Welcome to Pia</h2>
               
   <img class="img-responsive" src="https://drive.google.com/uc?id=1VD1mySf1lzV1CHWk9DiDBo4EAT3Sp69P" alt="Haaga-Helia"  class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
   
   <form>
                     <h3>Log in</h3>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputUsername" placeholder="Username // this could be linked to school server">
+                        <input type="email" class="form-control" id="exampleInputUsername" placeholder="Username // This would be linked to school server Buttons work goes to mock server">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password no password req shows as dots">
                     </div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
