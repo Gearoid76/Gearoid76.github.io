@@ -48,48 +48,59 @@
     .row > .column {
       padding: 8px;
     }
+    .row,
+    .row > .column_a {
+      padding: 8px;
+    }
     
     /* Create four equal columns that floats next to each other */
     .column {
-      float: left;
+      float: left;  
       width: 25%;
     }
-    
     /* Clear floats after rows */ 
     .row:after {
       content: "";
       display: table;
       clear: both;
     }
-  
     img {  
-        width: 33%;
+        width: automatic;
+    }
+    .container {
+      justify-content: space-evenly;
     }
     </style>
 </head>
 <body>
     <div class="jumbotron">           
         <div class="main">
-        <h1 class="display-4">Project Pia</h1>
+        <h1 class="display-4">Project Pia</h1> 
+      
           <hr>
             <h2>Overview</h2>
               <p class="lead">In this project we the team of three, where responsible for creating an app that students could use to organise their class schedules, thought we would but it into a monthly and weekly event type calender, so that students could organise their life.</p> 
                 <p>Problem - Organising courses into a timetable  is complicated and time-consuming. Solution - Pia - a timetable app (for UAS).</p>    
         </div>
     </div>
+    <h2>Interviews</h2> 
+    <p class="lead"> We aslo had interviews in which interview students on the current way of choosing and applying for courses.</p>
+    <p class="lead"> These were all students of Haaga-Helia aged between 17- 24. all in the same school all in the same class all having the same problems.</p>
+    <p>Here are the trascripts</p><img src="https://drive.google.com/uc?id=1AzEZOxIlbiTydyCREc-c3Faj71oBAhS1" alt="interview question" style="width:75%">
+
     <h2>Paper prototyping</h2>  
               <p class="lead">Here we did the paper prototypes out with sticky notes </p>
               <div class="row">
                 <div class="column"> 
                   <div class="content">
-                    <img src="https://drive.google.com/uc?id=0B4Xdpqq7OsxYQmdTekg5RFNlWDJrb1dXemdpcER5amdoN240" alt="Paper prototypes" style="width:100%">         
+                    <img src="https://drive.google.com/uc?id=1q7s5bdqqBpi582m47-61g2rQIBLupkPK" alt="Paper prototypes" style="width:100%">         
                       <h3>Sample buttons</h3>
                         <p>Working out how the buttons would be, and where was an important step.</p>
                   </div>
                 </div>
                 <div class="column"> 
                   <div class="content"> 
-                    <img src="https://drive.google.com/uc?id=0B4Xdpqq7OsxYRU83bC11QmJRaDVuVmM5aTN0R2RRVXcxOC1v" alt="Paper prototypes" style="width:100%">
+                    <img src="https://drive.google.com/uc?id=1g_2wYRwRp0A9Eg9pr3SRuKU80adhzbBd" alt="Paper prototypes" style="width:100%">
                       <h3>Story board</h3>
                         <p>This has Jemma, See below.</p>
                   </div>
@@ -98,14 +109,14 @@
 
     <h2>Wire framing</h2>  
               <p class="lead">We used wireframes. To create a more real feel to the project. </p>
-              <div class="row">
-                  <div class="column"> 
-                    <div class="content">
+              <div class="row">         
+                  <div class="column">   
+                    <div class="content"> 
                       <img src="https://drive.google.com/uc?id=1Vi1ASiwSLE0flTOqt3V9QP1tfsgkL6Ps" alt="" style="width:100%">         
                         <h3>Day View</h3>
                           <p>Since students use their mobiles more and more. putting it in a mobile device makes sense.</p>
-                    </div>
-                  </div>
+                    </div> 
+                  </div>   
                   <div class="column"> 
                     <div class="content"> 
                       <img src="https://drive.google.com/uc?id=1rbFzy005PLtCVBKxp1BvViRSoUgR06Td" alt="" style="width:100%">
@@ -119,7 +130,7 @@
                     <h3>Month View</h3>
                     <p>This is also showing that there is something wrong with the 27 for an appointment. </p>
                   </div>
-               <!--</div>  -->
+               
               </div> 
               </div>
     <h2>User story</h2>
@@ -137,22 +148,22 @@
                     <div class="column"> 
                       <div class="content"> 
                         <img src="https://drive.google.com/uc?id=1nBjOHGe8CvFp9dQkm96X0OGDxFKg7kCO" alt="" style="width:100%">
-                          <h3>Puts in her courses and sees that...</h3>
+                          <h3>Puts in her courses and sees that..</h3>
                             <p>This is an easy way to put in courses and classrooms </p>
                       </div>
                     </div>
                     <div class="column"> 
                       <div class="content"> 
                       <img src="https://drive.google.com/uc?id=1Ai36G5RsqBl_fKNTdq7_bphSFPyJAPjY" alt="" style="width:100%">
-                        <h3>..some are overlapping.</h3>
+                        <h3>Some are overlapping..</h3>
                         <p>Jemma, can either achknowledge the error or choose another class. </p>
                       </div>
                     </div>
                     <div class="column">
                       <div class="content"> 
                         <img src="https://drive.google.com/uc?id=1uv-xyXkk-pCm5EPo-tcDkn_J8efL4jM8" alt="" style="width:100%">
-                          <h3>She sees that</h3>
-                            <p>Its only overlapping by on Wednsday. </p>
+                          <h3>And makes the nesessary changes</h3>
+                            <p>Classes usually finish early. </p>
                       </div>
                     </div>
                 </div>  <!-- to correct the blue bars in welcome to pia...-->
@@ -160,7 +171,7 @@
 <h2 class= "highfidelity">Welcome to Pia High Fidelity mockup. </h2>
                
 <div class="container">
-  
+  <p> The buttons all work, Username and password are all working, not required. </p>
               
   <img class="img-responsive" src="https://drive.google.com/uc?id=1VD1mySf1lzV1CHWk9DiDBo4EAT3Sp69P" alt="Haaga-Helia"  class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
   
@@ -182,5 +193,6 @@
  <!-- <a href="index.html" class="btn btn-info" role="button">Link Button</a> -->
 </div>
 
+</div>
 </body>
 </html>
