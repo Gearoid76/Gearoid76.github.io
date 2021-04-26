@@ -131,7 +131,9 @@ header {
     display: inline-block;
     margin-bottom: 25px;
 }
-
+div.container {
+    margin: 0;
+}
 
 
 
