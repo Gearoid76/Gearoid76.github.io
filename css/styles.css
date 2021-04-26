@@ -131,9 +131,11 @@ header {
     display: inline-block;
     margin-bottom: 25px;
 }
-div.container {
-    margin: 0;
-}
+.container {
+    padding: 0px;   
+    padding: 25px 0px
+ }
+
 
 
 
