@@ -122,6 +122,17 @@ header {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
 }
+.btn {
+    background: #63372C;
+    color: #E8DDB5;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+
 
 
 
