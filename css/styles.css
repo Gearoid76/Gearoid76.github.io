@@ -47,7 +47,8 @@ a {
  h1,h2 {
     font-family: 'Lobster', cursive;
     font-weight: 2.8em;
-    margin: 0;
+    margin: 1em;
+
  }
  h3 {
      margin-bottom: 0;
@@ -148,9 +149,9 @@ header {
 /*  Education 
 ---------------------------------------------------- */
 .Education {
-    background-image: url(../Images/resume/juli-kosolapova-pWdM8saiPDk-unsplash\ copy.jpg); 
+    background-image: url(../Images/Resume/filip-zrnzevic-Ceuh97A6OYM-unsplash.jpg); 
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
     color: #E8DDB5;
     padding: 50px;
 }
@@ -190,7 +191,7 @@ footer {
 @media screen and (min-width: 750px) {
 
     .project-item img {
-        float: left;
+        float: right;
         margin-right: 20px;
     }
 
