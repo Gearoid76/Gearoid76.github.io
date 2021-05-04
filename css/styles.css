@@ -80,7 +80,6 @@ a {
 header {
     background: #63372C;
     color: #E8DDB5;
-    text-align: center;
 }
 
 
@@ -118,11 +117,7 @@ header {
     background: #FF715B;
     margin: 0px;
 }
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-}
+
 .btn {
     background: #63372C;
     color: #E8DDB5;
@@ -164,7 +159,6 @@ header {
 ---------------------------------------------------- */
 footer {
     background: #1EA896;
-    text-align: center;
 }
 .reference-list {
     list-style-type: none;
@@ -183,8 +177,6 @@ footer {
 .contact-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
     color: #052955;
 }
 .contact-list a {
@@ -200,10 +192,28 @@ footer {
 /*  Responsive
 ---------------------------------------------------- */
 @media screen and (min-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
 
     .project-item img {
         float: right;
         margin-right: 20px;
     }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+    .contact-list {
+        display: flex;
+    justify-content: center;
+    }
+    .contact-list a {
+        padding: 5px;
+    }
+
+}
+@media screen and (min-width: 749px) {
 
 }
